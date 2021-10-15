@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login </title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    
+<div class="container">
+   
+  <form id="form" action = "login.html" method="post"  >
+       <!-- Login image -->
+       <div class="imgcontainer"> 
+            <img src=""> 
+        </div>
+        <h1>Welcome Back</h1>
+        <div class="formcontainer"> 
+          <!--email  -->
+          <input type="email"  id="email" name="Email" required>
+          <span> </span>
+          <label for="email"> Email</label>
+        
+        </div>
+          <!--password  -->
+          <div class="formcontainer"> 
+            <input type="password"  id="password" name="password" required>
+            <span> </span>
+            <label for="password"> Password</label>
+            <span> </span>
+
+          </div>
+
+          <div class="submit"> 
+            <!-- submitt -->
+             <input type="submit" value="Login" id="submit" name="login" onclick = submit();>
+          </div>
+                        <!-- a href= should be signup.html -->
+        <div class="signupcontainer">
+          New User? <label><a href="https://getbootstrap.com/">  Sign UP</a></label>
+        </div>
+        
+    </form>
+
+  </div>
+
+</body>
+
+</html>
